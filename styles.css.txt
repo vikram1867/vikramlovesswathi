@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffcccb; /* Light pink background */
+}
+
+.container {
+  text-align: center;
+}
+
+#message {
+  font-size: 2em;
+  color: #d36d6d; /* Romantic red color */
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.button {
+  font-size: 1.5em;
+  padding: 15px 30px;
+  cursor: pointer;
+  border: 2px solid #d36d6d;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #d36d6d;
+  color: white;
+}
+
+/* Custom Button Sizes */
+#yesButton {
+  font-size: 1.5em;
+}
+
+#noButton {
+  font-size: 1.5em;
+}
