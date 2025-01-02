@@ -12,5 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Event listener for "Yes" button (optional)
   yesButton.addEventListener("click", function () {
     alert("Yay Swathi! I love you :) 💖");
+    window.location.href = 'loveletter.html';
   });
 });
