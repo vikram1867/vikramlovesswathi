@@ -11,6 +11,10 @@
             color: black;
             text-align: center;
             padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         h1 {
             font-size: 36px;
@@ -19,30 +23,42 @@
             font-size: 24px;
             line-height: 1.6;
             max-width: 600px;
-            margin: 0 auto;
+            margin: 20px auto;
+        }
+        .valentine-layout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px; 
+        }
+        .valentine-layout img {
+            width: 150px;
+        }
+        .heart {
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
 
     <h1>Happy Valentine's Day Swathi <3</h1>
-	
-    <p>I've been waiting for this day to come. </p>
-  <table style="width: 100%; height: 100vh; border: none;">
-  <tr>
-    <td style="text-align: left;">
-      <img src="swathiflower.jpg" alt="swathisflower" style="width: 150px;">
-    </td>
-    <td style="text-align: right;">
-      <img src="swathiflower.jpg" alt="swathisflower2" style="width: 150px;">
-    </td>
-  </tr>
-</table>
-    <p>I think that we complement each other really well. Peanut Butter & Jelly, Awesomeness & Lamborghini, Land & Sea, Vikram & Swathi. It just works  (unlike pineapples on pizza… sorry not sorry babe). <br> I love you for your intelligence, kindness, voice, smile, and laugh, and I love getting lost in your eyes. I still freeze up looking at you. I think the goddesses in the heavens were seriously locked in when they created you. You’re so beautiful. <br> <br> Swathi, There are a lot of things I love about you but, one of the most attractive things about you is the way you explain complex concepts to me in a way I can easily understand. Like the P53 gene, how it stops tumors and cancer, and the role of white blood cells. As a business major, I never thought I’d ever learn that. This is what happens when you deviate from the coloring books in our syllabuses. Anyhow, there’s a gleam in your eye when you talk about something you’re passionate about and it’s so beautiful to me. I look forward to supporting you as you achieve your dreams and ambitions. <br> The person who came up with the saying head-over-heels in love probably felt the exact same way I do whenever I think of your name. <br> Swathi, even your name is beautiful. I wish you knew how much I love you. <br> Happy Valentine's Day darling. </p>
+    
+    <div class="valentine-layout">
+        <img src="swathiflower.jpg" alt="swathisflower">
+        <p>
+            I've been waiting for this day to come.<br><br>
+            I think that we complement each other really well. Peanut Butter & Jelly, Awesomeness & Lamborghini, Land & Sea, Vikram & Swathi. It just works (unlike pineapples on pizza… sorry not sorry babe). <br><br>
+            I love you for your intelligence, kindness, voice, smile, and laugh, and I love getting lost in your eyes. I still freeze up looking at you. I think the goddesses in the heavens were seriously locked in when they created you. You’re so beautiful.<br><br>
+            Swathi, There are a lot of things I love about you but, one of the most attractive things about you is the way you explain complex concepts to me in a way I can easily understand. Like the P53 gene, how it stops tumors and cancer, and the role of white blood cells. As a business major, I never thought I’d ever learn that. This is what happens when you deviate from the coloring books in our syllabuses. Anyhow, there’s a gleam in your eye when you talk about something you’re passionate about and it’s so beautiful to me. I look forward to supporting you as you achieve your dreams and ambitions.<br><br>
+            The person who came up with the saying head-over-heels in love probably felt the exact same way I do whenever I think of your name. <br><br>
+            Swathi, even your name is beautiful. I wish you knew how much I love you. <br><br>
+            Happy Valentine's Day darling.
+        </p>
+        <img src="swathiflower.jpg" alt="swathisflower2">
+    </div>
 
-
-    <p> <br> Love, <br> Vikram Guruswamy </p>
-  <img src="heart.jpg" alt="swathiwhiteheart" style="width: 150px;">
+    <p>Love, <br> Vikram Guruswamy</p>
+    <img src="heart.jpg" alt="swathiwhiteheart" class="heart">
 
 </body>
 </html>
