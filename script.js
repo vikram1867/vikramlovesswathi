@@ -53,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function () {
   yesButton.addEventListener("click", function () {     
     start()
     setTimeout(() => {
+        alert("Yay Swathi! I love you :) 💖");
+        window.location.href = 'loveletter.html';
     }, 3000);
-    alert("Yay Swathi! I love you :) 💖");
-    window.location.href = 'loveletter.html';
   });
 });
