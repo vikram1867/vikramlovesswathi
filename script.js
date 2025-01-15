@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   //"Yes" button
   yesButton.addEventListener("click", function () {
+    <script src="confetti.js"></script>
     alert("Yay Swathi! I love you :) 💖");
     window.location.href = 'loveletter.html';
   });
